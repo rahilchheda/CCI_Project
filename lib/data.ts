@@ -1,0 +1,321 @@
+export const companyData: Record<string, any> = {
+  Google: {
+    dimensions: {
+      innovation: 0.85,
+      collaboration: 0.78,
+      risk_tolerance: 0.72,
+      customer_focus: 0.65,
+      decision_making: 0.7,
+      work_life_balance: 0.75,
+    },
+    metadata: {
+      industry: "Technology",
+      employees: 156500,
+      founded: 1998,
+      headquarters: "Mountain View, CA",
+    },
+  },
+  Microsoft: {
+    dimensions: {
+      innovation: 0.75,
+      collaboration: 0.82,
+      risk_tolerance: 0.6,
+      customer_focus: 0.7,
+      decision_making: 0.65,
+      work_life_balance: 0.72,
+    },
+    metadata: {
+      industry: "Technology",
+      employees: 181000,
+      founded: 1975,
+      headquarters: "Redmond, WA",
+    },
+  },
+  Apple: {
+    dimensions: {
+      innovation: 0.88,
+      collaboration: 0.65,
+      risk_tolerance: 0.55,
+      customer_focus: 0.9,
+      decision_making: 0.75,
+      work_life_balance: 0.6,
+    },
+    metadata: {
+      industry: "Technology",
+      employees: 154000,
+      founded: 1976,
+      headquarters: "Cupertino, CA",
+    },
+  },
+  Meta: {
+    dimensions: {
+      innovation: 0.8,
+      collaboration: 0.7,
+      risk_tolerance: 0.75,
+      customer_focus: 0.6,
+      decision_making: 0.65,
+      work_life_balance: 0.55,
+    },
+    metadata: {
+      industry: "Technology",
+      employees: 77805,
+      founded: 2004,
+      headquarters: "Menlo Park, CA",
+    },
+  },
+  Amazon: {
+    dimensions: {
+      innovation: 0.82,
+      collaboration: 0.6,
+      risk_tolerance: 0.78,
+      customer_focus: 0.95,
+      decision_making: 0.85,
+      work_life_balance: 0.45,
+    },
+    metadata: {
+      industry: "E-commerce/Technology",
+      employees: 1541000,
+      founded: 1994,
+      headquarters: "Seattle, WA",
+    },
+  },
+  Walmart: {
+    dimensions: {
+      innovation: 0.55,
+      collaboration: 0.65,
+      risk_tolerance: 0.45,
+      customer_focus: 0.8,
+      decision_making: 0.6,
+      work_life_balance: 0.5,
+    },
+    metadata: {
+      industry: "Retail",
+      employees: 2300000,
+      founded: 1962,
+      headquarters: "Bentonville, AR",
+    },
+  },
+  Tesla: {
+    dimensions: {
+      innovation: 0.92,
+      collaboration: 0.6,
+      risk_tolerance: 0.85,
+      customer_focus: 0.75,
+      decision_making: 0.8,
+      work_life_balance: 0.4,
+    },
+    metadata: {
+      industry: "Automotive/Energy",
+      employees: 127855,
+      founded: 2003,
+      headquarters: "Austin, TX",
+    },
+  },
+  Ford: {
+    dimensions: {
+      innovation: 0.65,
+      collaboration: 0.7,
+      risk_tolerance: 0.5,
+      customer_focus: 0.75,
+      decision_making: 0.55,
+      work_life_balance: 0.65,
+    },
+    metadata: {
+      industry: "Automotive",
+      employees: 173000,
+      founded: 1903,
+      headquarters: "Dearborn, MI",
+    },
+  },
+  Netflix: {
+    dimensions: {
+      innovation: 0.85,
+      collaboration: 0.65,
+      risk_tolerance: 0.8,
+      customer_focus: 0.85,
+      decision_making: 0.75,
+      work_life_balance: 0.7,
+    },
+    metadata: {
+      industry: "Entertainment/Technology",
+      employees: 12800,
+      founded: 1997,
+      headquarters: "Los Gatos, CA",
+    },
+  },
+  Disney: {
+    dimensions: {
+      innovation: 0.75,
+      collaboration: 0.8,
+      risk_tolerance: 0.6,
+      customer_focus: 0.9,
+      decision_making: 0.65,
+      work_life_balance: 0.7,
+    },
+    metadata: {
+      industry: "Entertainment",
+      employees: 220000,
+      founded: 1923,
+      headquarters: "Burbank, CA",
+    },
+  },
+  "JPMorgan Chase": {
+    dimensions: {
+      innovation: 0.68,
+      collaboration: 0.75,
+      risk_tolerance: 0.55,
+      customer_focus: 0.8,
+      decision_making: 0.7,
+      work_life_balance: 0.6,
+    },
+    metadata: {
+      industry: "Financial Services",
+      employees: 293723,
+      founded: 1799,
+      headquarters: "New York, NY",
+    },
+  },
+  "Goldman Sachs": {
+    dimensions: {
+      innovation: 0.72,
+      collaboration: 0.65,
+      risk_tolerance: 0.8,
+      customer_focus: 0.7,
+      decision_making: 0.85,
+      work_life_balance: 0.45,
+    },
+    metadata: {
+      industry: "Investment Banking",
+      employees: 45000,
+      founded: 1869,
+      headquarters: "New York, NY",
+    },
+  },
+  "Johnson & Johnson": {
+    dimensions: {
+      innovation: 0.8,
+      collaboration: 0.78,
+      risk_tolerance: 0.5,
+      customer_focus: 0.85,
+      decision_making: 0.65,
+      work_life_balance: 0.75,
+    },
+    metadata: {
+      industry: "Healthcare/Pharmaceuticals",
+      employees: 152700,
+      founded: 1886,
+      headquarters: "New Brunswick, NJ",
+    },
+  },
+  "Coca-Cola": {
+    dimensions: {
+      innovation: 0.65,
+      collaboration: 0.8,
+      risk_tolerance: 0.45,
+      customer_focus: 0.9,
+      decision_making: 0.6,
+      work_life_balance: 0.7,
+    },
+    metadata: {
+      industry: "Beverages",
+      employees: 82500,
+      founded: 1892,
+      headquarters: "Atlanta, GA",
+    },
+  },
+  IBM: {
+    dimensions: {
+      innovation: 0.7,
+      collaboration: 0.75,
+      risk_tolerance: 0.55,
+      customer_focus: 0.75,
+      decision_making: 0.6,
+      work_life_balance: 0.65,
+    },
+    metadata: {
+      industry: "Technology/Consulting",
+      employees: 282100,
+      founded: 1911,
+      headquarters: "Armonk, NY",
+    },
+  },
+  "Procter & Gamble": {
+    dimensions: {
+      innovation: 0.75,
+      collaboration: 0.8,
+      risk_tolerance: 0.5,
+      customer_focus: 0.85,
+      decision_making: 0.65,
+      work_life_balance: 0.7,
+    },
+    metadata: {
+      industry: "Consumer Goods",
+      employees: 101000,
+      founded: 1837,
+      headquarters: "Cincinnati, OH",
+    },
+  },
+}
+
+export const FALLBACK_DATA: Record<string, any> = {
+  Google: {
+    tweets: [
+      "Google's work culture promotes innovation and creativity. #TechCulture",
+      "Just had my interview at Google. The emphasis on collaboration was impressive!",
+      "Google's 20% time policy is a great example of how they encourage innovation.",
+      "Work-life balance at Google seems better than most tech companies.",
+      "Google's decision-making process can be slow due to their collaborative approach.",
+    ],
+    news: [
+      "Google Announces New AI Research Center",
+      "Google's Approach to Innovation Continues to Drive Growth",
+      "Inside Google's Collaborative Work Culture",
+      "Google Ranked Top Company for Employee Satisfaction",
+      "How Google's Risk-Taking Culture Drives Product Development",
+    ],
+    reviews: [
+      "Great work-life balance and collaborative environment.",
+      "Innovation is truly valued here, you're encouraged to think big.",
+      "Decision-making can be slow due to consensus-building approach.",
+      "Strong focus on user experience and customer needs.",
+      "Risk-taking is encouraged, failure is seen as learning.",
+    ],
+    sec_filings: [
+      "Google emphasizes long-term innovation investments",
+      "Company culture highlighted as competitive advantage",
+      "Risk management approach detailed in annual report",
+      "Customer-centric product development strategy",
+      "Collaborative work environment cited in talent retention",
+    ],
+  },
+  Microsoft: {
+    tweets: [
+      "Microsoft's culture has transformed under Nadella. Much more collaborative now.",
+      "The focus on growth mindset at Microsoft is refreshing compared to other tech giants.",
+      "Microsoft balances innovation with stability better than most tech companies.",
+      "Customer obsession is real at Microsoft - everything starts with user needs.",
+      "Decision-making at Microsoft has become more decentralized in recent years.",
+    ],
+    news: [
+      "Microsoft's Cultural Transformation Under Satya Nadella",
+      "How Microsoft Balances Innovation and Enterprise Stability",
+      "Microsoft's Customer-First Approach Drives Cloud Growth",
+      "Inside Microsoft's Collaborative Work Environment",
+      "Microsoft's Risk Management Strategy in AI Development",
+    ],
+    reviews: [
+      "Good work-life balance, especially compared to other tech companies.",
+      "Collaborative culture, though sometimes teams can be siloed.",
+      "Innovation is valued but balanced with practical business needs.",
+      "Strong customer focus, especially in enterprise products.",
+      "Decision-making can be bureaucratic in some divisions.",
+    ],
+    sec_filings: [
+      "Microsoft highlights cultural transformation in annual report",
+      "Risk management approach detailed for cloud and AI initiatives",
+      "Customer-centric innovation strategy outlined",
+      "Collaborative development methodology described as competitive advantage",
+      "Work-life balance initiatives mentioned in talent retention strategy",
+    ],
+  },
+}
